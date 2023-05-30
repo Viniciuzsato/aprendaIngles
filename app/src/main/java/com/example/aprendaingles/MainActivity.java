@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
                 FragmentPagerItems.with(this)
                         .add("Bichos", BichosFragment.class)
                         .add("Números", NumerosFragment.class)
-                        .add("Vogais", VogaisFragment.class)
+                        //.add("Vogais", VogaisFragment.class)
                 .create()
         );
 
